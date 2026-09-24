@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para Sharly ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- CORAZONES -->
+    <div id="corazones"></div>
+
+    <!-- PANTALLA DE INICIO -->
+    <section id="inicio" class="pantalla-inicio">
+
+        <div class="inicio-contenido">
+
+            <div class="corazon-grande">❤️</div>
+
+            <p class="pequeno">UNA HISTORIA ESPECIAL</p>
+
+            <h1>Para Sharly</h1>
+
+            <p class="frase-inicio">
+                Hay historias que merecen ser guardadas
+                para siempre...
+            </p>
+
+            <button id="btnAbrir" class="boton-principal">
+                🎵 Entrar a nuestra historia ❤️
+            </button>
+
+            <p class="nota-musica">
+                Toca el botón para comenzar la música
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main id="contenido" class="oculto">
+
+        <!-- AUDIO ÚNICO DE TODA LA PÁGINA -->
+        <audio id="musica" loop>
+            <source src="musica/nuestra-cancion.aac" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        </audio>
+
+
+        <!-- NAVEGACIÓN -->
+        <nav class="navegacion">
+
+            <a href="#inicio-historia">Inicio</a>
+            <a href="#historia">Historia</a>
+            <a href="#recuerdos">Recuerdos</a>
+            <a href="#carta">Carta</a>
+            <a href="#sorpresa">Sorpresa</a>
+
+        </nav>
+
+
+        <!-- HERO -->
+        <section id="inicio-historia" class="hero">
+
+            <div class="hero-contenido">
+
+                <p class="etiqueta">PARA LA PERSONA ESPECIAL</p>
+
+                <h2>
+                    Sharly
+                    <span>❤️</span>
+                </h2>
+
+                <p>
+                    Si pudiera guardar mis momentos favoritos,
+                    muchos de ellos tendrían tu nombre.
+                </p>
+
+                <div class="separador">♡ ───── ♡ ───── ♡</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTADOR -->
+        <section class="seccion contador-seccion">
+
+            <p class="etiqueta">NUESTRO TIEMPO</p>
+
+            <h2>Momentos que siguen sumando</h2>
+
+            <div class="contador">
+
+                <div class="tiempo">
+                    <span id="dias">0</span>
+                    <small>Días</small>
+                </div>
+
+                <div class="tiempo">
+                    <span id="horas">0</span>
+                    <small>Horas</small>
+                </div>
+
+                <div class="tiempo">
+                    <span id="minutos">0</span>
+                    <small>Minutos</small>
+                </div>
+
+                <div class="tiempo">
+                    <span id="segundos">0</span>
+                    <small>Segundos</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HISTORIA -->
+        <section id="historia" class="seccion">
+
+            <p class="etiqueta">NUESTRA HISTORIA</p>
+
+            <h2>Algunos momentos</h2>
+
+            <div class="linea-tiempo">
+
+                <div class="momento">
+
+                    <div class="punto"></div>
+
+                    <div class="momento-contenido">
+
+                        <span class="fecha">EL COMIENZO</span>
+
+                        <h3>Cuando todo empezó ❤️</h3>
+
+                        <p>
+                            Mira mi amor sabes que te amo mucho... aun recuerdo cuando nos conocimos, tu estabas tan hermosa 
+                            y yo tan nervioso y apenas te vi senti con quien queria estar el resto de mi vida, con esa ropa negra 
+                            que te caracteriza y yo nervioso por no saber que decir jejeje... ese dia de paseo es uno que nuca olvidaré 
+                            por que justo ese dia encontré el amor❤️. 
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="momento">
+
+                    <div class="punto"></div>
+
+                    <div class="momento-contenido">
+
+                        <span class="fecha">UN MOMENTO ESPECIAL</span>
+
+                        <h3>Un recuerdo inolvidable</h3>
+
+                        <p>
+                            Recuerdo cuando fuimos a la fiesta de inauguracion de una casa amor fue tan hermoso que me 
+                            acompañaras, y estabamos muy combinados no solo en ropa amor si no que tambien se veia como 
+                            nos complementabamos uno a otro eres la pieza de este rompecabezas sin terminar mi amor porque 
+                            no solo haces mi vida mas feliz sino que tambien mas llevadera, con un propósito... Gracias a ti❤️.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="momento">
+
+                    <div class="punto"></div>
+
+                    <div class="momento-contenido">
+
+                        <span class="fecha">HOY</span>
+
+                        <h3>Y la historia continúa...</h3>
+
+                        <p>
+                            Cada día puede convertirse en un nuevo
+                            recuerdo.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALERÍA -->
+        <section id="recuerdos" class="seccion">
+
+            <p class="etiqueta">RECUERDOS</p>
+
+            <h2>Nuestros momentos</h2>
+
+            <p class="descripcion">
+                estos son algunos de los recuerdos que guardo en mi corazon mi amor❤️
+            </p>
+
+
+            <div class="galeria">
+
+                <div class="foto">
+                    <img src="imagenes/foto1.jpeg" alt="Nuestro recuerdo 1">
+                    <div class="foto-texto">Un momento especial ❤️</div>
+                </div>
+
+                <div class="foto">
+                    <img src="imagenes/foto2.jpeg" alt="Nuestro recuerdo 2">
+                    <div class="foto-texto">Un recuerdo bonito</div>
+                </div>
+
+                <div class="foto">
+                    <img src="imagenes/foto3.jpeg" alt="Nuestro recuerdo 3">
+                    <div class="foto-texto">Para recordar siempre</div>
+                </div>
+
+                <div class="foto">
+                    <img src="imagenes/foto4.jpeg" alt="Nuestro recuerdo 4">
+                    <div class="foto-texto">Un día inolvidable</div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CARTA -->
+        <section id="carta" class="seccion carta-seccion">
+
+    <p class="etiqueta">PARA TI</p>
+
+    <h2>Una pequeña carta</h2>
+
+    <div class="sobre" id="sobre">
+
+        <div class="sobre-tapa"></div>
+
+        <div class="carta">
+
+            <h3>Querida Sharly ❤️</h3>
+
+            <p>
+                Quería crear algo diferente para ti.
+            </p>
+
+            <p>
+                No es solamente una página, sino un pequeño
+                lugar donde guardar algunos recuerdos,
+                palabras y momentos especiales.
+            </p>
+
+            <p>
+                Gracias por formar parte de mi historia y
+                por todos esos momentos que hacen que cada
+                día tenga algo especial.
+            </p>
+
+            <p class="firma">
+                Con cariño Alex❤️
+            </p>
+
+        </div>
+
+    </div>
+
+    <button type="button" id="btnCarta" class="boton-secundario">
+        💌 Abrir carta
+    </button>
+
+</section>
+
+
+        <!-- RAZONES -->
+        <section class="seccion razones-seccion">
+
+            <p class="etiqueta">PEQUEÑOS DETALLES</p>
+
+            <h2>Algunas razones</h2>
+
+            <div class="razones">
+
+                <div class="razon">
+                    <span>01</span>
+                    <p>Porque haces especiales los momentos simples.</p>
+                </div>
+
+                <div class="razon">
+                    <span>02</span>
+                    <p>Porque siempre hay algún recuerdo que me hace sonreír.</p>
+                </div>
+
+                <div class="razon">
+                    <span>03</span>
+                    <p>Porque tu presencia puede cambiar completamente un día.</p>
+                </div>
+
+                <div class="razon">
+                    <span>04</span>
+                    <p>Porque cada recuerdo tiene algo que lo hace único.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MÚSICA -->
+        <section class="seccion musica-seccion">
+
+            <p class="etiqueta">NUESTRA CANCIÓN</p>
+
+            <h2>Un momento para escuchar</h2>
+
+            <div class="reproductor">
+
+                <div class="disco">🎵</div>
+
+                <div class="info-musica">
+
+                    <h3>Nuestra canción</h3>
+
+                    <p>Un pequeño detalle para este momento ❤️</p>
+
+                </div>
+
+                <button id="btnMusica" class="boton-musica">
+                    ▶
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- MENSAJE -->
+        <section class="seccion mensaje-seccion">
+
+            <p class="etiqueta">UN PEQUEÑO MENSAJE</p>
+
+            <div class="mensaje-box">
+
+                <p id="mensaje">
+                    Presiona el botón para recibir un mensaje ❤️
+                </p>
+
+                <button id="btnMensaje" class="boton-secundario">
+                    💌 Mostrar mensaje
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SORPRESA -->
+        <section id="sorpresa" class="seccion sorpresa-seccion">
+
+            <p class="etiqueta">TIENES UNA SORPRESA</p>
+
+            <h2>Para Sharly ❤️</h2>
+
+            <p>
+                Hay algo que quiero decirte...
+            </p>
+
+            <button id="btnSorpresa" class="boton-principal">
+                ✨ Abrir sorpresa
+            </button>
+
+            <div id="sorpresaTexto" class="sorpresa-texto oculto">
+
+                <div class="corazon-sorpresa">❤️</div>
+
+                <h3>Gracias por estar aquí</h3>
+
+                <p>
+                    Espero que esta pequeña página te saque
+                    una sonrisa y que podamos seguir creando
+                    muchos recuerdos.
+                </p>
+
+                <div class="estrellas">
+                    ✨ ❤️ ✨
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <p>Hecho con ❤️ para Sharly</p>
+
+            <p class="footer-pequeno">
+                Una pequeña página para una persona especial.
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
